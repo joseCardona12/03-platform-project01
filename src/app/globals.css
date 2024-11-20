@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color-green: #3dbe86;
+  --background-color-gray: #707070;
+  --background-color-blue: #6b5cff;
+  --background-color-blue-hover: #594cd8;
+  --background-color-red: #fe654f;
+  --background-color-red-hover: #ec4e37;
+  --background-color-yellow: #e6ca52;
+  --background-color-yellow-hover: #e5c53c;
+
+  /*Background theme light*/
+  --background-color-main: #f5f5f5;
+  --background-color-white: #ffffff;
+
+  /*Background theme DarkMode*/
+  --background-color-darkmode: #1d1d1d;
+  --background-color-darkmode-light: #404040;
+  --background-color-darkmode-extra-light: #545454;
+
+  /*Colors */
+  --color-white: #ffffff;
+  --color-black: #1d1d1d;
+  --color-gray-disabled: #fe654f;
+  --color-gray: #707070;
+  --color-blue: #6b5cff;
+  --color-green: #3dbe86;
+  --color-red: #fe654f;
+  --color-yellow: #e6ca52;
+
+  /* Space */
+  --padding-small: 10px;
+  --padding-medium: 20px;
+  --padding-large: 30px;
+
+  /* Borders*/
+  --border-radius-small: 10px;
+  --border-radius-medium: 20px;
+  --border-radius-large: 30px;
+
+  --font-size-extra-small: 0.6rem;
+  --font-size-small: 0.9rem;
+  --font-size-medium: 1.2rem;
+  --font-size-large: 1.5rem;
+
+  /* Fonts*/
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: none;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.main-background {
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    180deg,
+    #b7d6ff 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
